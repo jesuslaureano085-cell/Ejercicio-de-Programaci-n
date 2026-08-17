@@ -31,8 +31,14 @@ namespace ppp
         {
             int de = cbo1.SelectedIndex, a = cbo2.SelectedIndex;
             double cantidad = Double.Parse(txt1.Text);
-            double respuesta = valores[a] / valores[de] = cantidad;
+
+        
+  
+
         }
+
+        
+        private void frm_Load_1(object sender, EventArgs e)
         {
 
         }
